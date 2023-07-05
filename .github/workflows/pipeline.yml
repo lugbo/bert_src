@@ -17,7 +17,11 @@ on:
 jobs:
 
   pipeline_all:
-  
+
+      env:
+      MACHINE_USER_NAME: ${{ secrets.MACHINE_USER_NAME }}
+      MACHINE_USER_TOKEN: ${{ secrets.MACHINE_USER_TOKEN }}
+
     runs-on: ubuntu-latest
     
     steps:
