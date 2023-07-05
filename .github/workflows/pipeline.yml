@@ -25,4 +25,4 @@ jobs:
         run: ./pipeline/build.sh
 
       - name: Test
-        run: |./pipeline/test.sh
+        run: ./pipeline/test.sh
